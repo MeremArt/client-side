@@ -1,0 +1,192 @@
+.navbar{
+    height: 97px;
+    background-color: var(--white-text-color);
+    box-shadow: var(--box-shadow);
+}
+
+.topbar{
+    width: 100%;
+    height: 32px;
+    background-color: #041E45;
+    padding: 0px 50px 0px 50px;
+    justify-content: flex-end;
+}
+
+.location{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}
+
+.location p{
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.flexitem{
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+.nav{
+    width: 100%;
+    height: 65px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.nav-logo img{
+    /* display: flex;
+    align-items: center; */
+    width: 100%;
+}
+
+.nav-logo{
+    width: 100px;
+     display: flex;
+    align-items: center;
+}
+
+.nav-logo p{
+    font-weight: 600;
+}
+
+.nav-profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #808080;
+}
+
+.profile-icon img{
+    width: 100%;
+}
+
+.profile-name-section{
+    display: grid;
+    padding-left: 15px;
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.name p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.name-id{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.name-id p{
+    letter-spacing: .4px;
+    font-size: 12px;
+}
+
+.bell{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.copy{
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        height: 70px;
+    }
+
+    .topbar{
+        height: 20px;
+    }
+
+    .nav{
+        height: 50px;
+    }
+
+    .location p{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .flexitem{
+        padding: 0;
+    }
+
+    .global{
+        width: 14px;
+        height: 14px;   
+    }
+
+    .bell-noti{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .profile-icon{
+        width: 33px;
+        height: 33px;
+    }
+
+    .copy-icon{
+        width: 14px;
+        height: 14px;
+    }
+
+    .name p{
+        font-size: 12px;
+    }
+
+    .name-id p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    /* .navbar{
+        display: none;
+    } */
+    .nav{
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .nav-logo{
+        width: 60px;
+    }
+
+    .bell{
+        display: none;
+    }
+
+    /* .profile-icon{
+        display: none;
+    } */
+
+    .name p{
+        font-size: 10px;
+    }
+
+    .name-id p{
+        font-size: 8px;
+    }
+}

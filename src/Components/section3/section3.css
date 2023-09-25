@@ -1,0 +1,127 @@
+.third_section{
+    width: 100%;
+    height: 515px;
+    display: flex;
+    padding: 15px 0px 10px 100px;
+    background: #FBFBFB;
+    cursor: context-menu;
+}
+
+.third_section_text{
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.balls{
+    font-size: 32px;
+    font-weight: 700;
+    color: #041E45;
+    display: block;
+}
+
+.second_balls{
+    font-size: 32px;
+    font-weight: 700;
+    color: #041E45;
+    display: none;
+}
+
+.zom{
+    font-size: 13px;
+    color: #808080;
+    padding-top: 15px;
+    display: block;
+}
+
+.dom{
+    font-size: 13px;
+    color: #808080;
+    padding-top: 15px;
+    display: none;
+}
+
+
+.third_section_button{
+    width: 100%;
+    padding-top: 16px;
+}
+
+.third_section_button button{
+    background-color: #FBFBFB;
+    color: #093D8B;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 52%;
+    height: 43px;
+    transition: ease-in-out 400ms;
+    border: 1px solid var(--blues-primary-blue, #093D8B);
+}
+
+.third_section_button button:hover{
+    border: none;
+    transition: ease-in-out 400ms;
+}
+
+
+.third_section_banner{
+    width: 50%;
+    height: 100%;
+}
+
+.banner_section{
+    background: url(../../assets/dashboardBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px){    
+    .third_section{
+        flex-wrap: wrap;
+        padding: 15px 15px 10px 15px;
+    }
+
+    .third_section_text{
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    .balls{
+        font-size: 16px;
+        font-weight: 700;
+        color: #041E45;
+        display: none;
+    }
+
+    .second_balls{
+        display: flex;
+        font-size: 16px;
+    }
+    
+    .zom{
+        font-size: 13px;
+        color: #808080;
+        padding-top: 15px;
+        display: none;
+    }
+    
+    .dom{
+        font-size: 11px;
+        color: #808080;
+        padding-top: 15px;
+        display: block;
+    }
+        
+    .third_section_banner{
+        width: 100%;
+        height: 500px;
+    }
+
+    .banner_section{
+        width: 100%;
+    }
+}

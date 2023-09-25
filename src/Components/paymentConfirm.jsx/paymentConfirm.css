@@ -1,0 +1,119 @@
+.payCon-body{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.payCon-cont{
+    width: 600px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.payCon-circle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.payCon-header{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.payCon-header h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #575656;
+}
+
+.payCon-header p{
+    font-size: 12px;
+    color: #808080;
+}
+
+.payCon-details-header{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.payCon-details-header p{
+    font-size: 12px;
+    color: #808080;
+}
+
+.payCon-details-header h3{
+    color: #325D9E;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.payCon-details-details{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.headd{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.headd h3{
+    font-size: 12px;
+    color: #575656;
+    font-weight: 500;
+}
+
+.headd p{
+    font-size: 10px;
+    color: #575656;
+}
+
+.payCon-button{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+}
+
+.payCon-button button{
+    width: 324px;
+    height: 40px;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.payCon-cont{
+    width: 100%;
+}

@@ -1,0 +1,125 @@
+.seventh_section{
+    width: 100%;
+    height: 700px;
+    background: #FBFBFB;
+    display: flex;
+    padding-bottom: 40px;
+    cursor: context-menu;
+}
+
+.seventh_video{
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    padding-top: 40px;
+}
+
+.video7{
+    width: 80%;
+    max-width: 607px;
+    height: 95%;
+    background-color: FBFBFB;
+    border-radius: 0px 50% 50% 0px;
+    overflow: hidden;
+}
+
+.background-video{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    left: -70%;
+}
+
+
+.seventh_text{
+    width: 50%;
+    height: 100%;
+    padding-top: 120px;
+}
+
+.seventh_text h3{
+    color: #041E45;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.num1{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+.hol-line{
+    width: 2px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FF7000;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.fit p{
+    color: #FF7000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.txtx{
+    color: #808080;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.crete{
+    font-size: 16px;
+    font-weight: 700;
+    color: #325D9E;
+}
+
+@media screen and (max-width: 375px){
+    .seventh_section{
+        flex-wrap: wrap;
+        height: 700px;
+    }
+
+    .seventh_video{
+        width: 100%;
+    }
+
+    .seventh_text{
+        width: 100%;
+        height: fit-content;
+        padding-top: 2px;
+        padding: 10px 20px 0px 20px;
+    }
+
+    .video7{
+        width: 100%;
+        height: 90%;
+        background-color: pink;
+        border-radius: 0px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .background-video{
+        width: max-content;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        left: -70%;
+        position: absolute;
+    }
+    
+    .seventh_text h3{
+        font-size: 16px;
+    }
+
+    .seventh_text p{
+        font-size: 11px;
+    }
+}

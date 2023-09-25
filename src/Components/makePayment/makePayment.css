@@ -1,0 +1,157 @@
+.makepayment{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+
+.go_back_textt{
+    background: none;
+    /* display: flex;
+    border: 1px solid black; */
+}
+
+.go_back_textt:hover{
+    background: none;
+}
+
+.makepaycont{
+    width: 75%;
+    /* height: 400px; */
+    background: #FFFFFF;
+}
+
+.input2 input{
+    cursor: context-menu;
+}
+
+.input-fields{
+    display: flex;
+    padding: 30px 40px 15px 40px;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input1 p{
+    font-weight: 500;
+    font-size: 12px;
+    color: #808080;
+    padding-bottom: 8px;
+}
+
+.input2 p{
+    font-weight: 500;
+    font-size: 12px;
+    color: #808080;
+    padding-bottom: 8px;
+}
+
+.depositinputtext{
+    width: 100%;
+    height: 60px;
+}
+
+.depositinputtext p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #EF5252;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.depositsbuttons{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.depositsbuttons Button{
+    width: 500px;
+    height: 48px;
+    background: #093D8B;
+    border-radius: 8px;
+    color: #FBFBFB;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.depositsbuttons Button:hover{
+    background: linear-gradient(97.47deg, rgba(36, 219, 214, 0.72) 0%, rgba(22, 114, 225, 0.42) 45.25%, #2FECE7 96.83%);  
+    transition: 400ms;
+}
+
+.depositsbuttons2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.depositsbuttons2 Button{
+    width: 500px;
+    height: 48px;
+    border: 1px solid #093D8B;
+    background-color: #FBFBFB;
+    border-radius: 8px;
+    color: #093D8B;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.depositsbuttons2 Button:hover{
+    background: linear-gradient(97.47deg, rgba(36, 219, 214, 0.72) 0%, rgba(22, 114, 225, 0.42) 45.25%, #2FECE7 96.83%);  
+    transition: 400ms;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width:375px) {
+    .input-fields{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .depositsbuttons Button{
+        width: 380px;
+        padding-left: 0;
+
+    }
+    .depositsbuttons2 Button{
+        width: 380px;
+        padding-left: 0;
+    }
+
+    /* .input1{
+        width: 200px;
+        border:1px solid black;
+    } */
+}
+
+@media screen and (max-width:1000px) {
+    .input-fields{
+        flex-direction: column;
+        padding: 0;
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .depositsbuttons Button{
+        width: 380px;
+        padding-left: 0;
+
+    }
+    .depositsbuttons2 Button{
+        width: 380px;
+        padding-left: 0;
+    }
+
+    /* .input1{
+        width: 100%;
+        border:1px solid black;
+    } */
+}

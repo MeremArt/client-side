@@ -1,0 +1,55 @@
+.makepaycontt{
+    width: 75%;
+    height: 400px;
+    background: #FFFFFF;
+}
+
+.makepaycontt h3{
+    font-size: 16px;
+    font-size: 700;
+    color: #575656;
+}
+
+.makepaycontt p{
+    color: #808080;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.input-fieldss{
+    width: 100%;
+    height: 300px;
+}
+
+.inputfeild1 p{
+    font-size: 11px;
+    color: #575656;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+.spacerr{
+    height: 30px;
+}
+
+.forbutton{
+    padding-top: 40px;
+}
+
+.forbutton Button{
+    width: 65%;
+    height: 45px;
+}
+
+@media screen and (max-width:375px) {
+    .inputfeild1{
+        width: 100vw;
+    }
+    .forbutton Button{
+        width: 90%;
+    }
+
+    .spacerr{
+        display: none;
+    }
+}

@@ -1,0 +1,70 @@
+.successScreen{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+
+.successbody{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.successicon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.successtext{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.paytext{
+    font-size: 20px;
+    font-weight: 700;
+    color: #575656;
+    padding-bottom: 10px;
+}
+
+.timer{
+    font-size: 12px;
+    color: #808080;
+}
+
+.successbutton{
+    display: grid;
+    justify-content: center;
+}
+
+.successbutton Button{
+    width: 450px;
+    height: 48px;
+}
+
+@media screen and (max-width:414px) {
+
+    .successbody{
+        width: 100%;
+    }
+    .successbutton Button{
+        width: 250px;
+    }
+}
+@media screen and (max-width:675px) {
+
+    .successbody{
+        width: 100%;
+    }
+    .successbutton Button{
+        width: 280px;
+    }
+}
+

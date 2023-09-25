@@ -1,0 +1,93 @@
+.bank-details-bodyy{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+}
+
+.transHeader{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.transHeader h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #575656;
+}
+
+.transHeader p{
+    font-size: 10px;
+    color: #808080;
+}
+
+.yourSending{
+    width: 100%;
+    height: 108px;
+    padding: 20px 0px;
+    border-radius: 16px;
+    border: 0.5px solid #BFBFBF;
+    background: #FBFBFB;  
+    text-align: center;  
+}
+
+.yourSending p{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.yourSending h3{
+    color: #325D9E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.transdetails{
+    width: 100%;
+    height: 120px;
+    padding: 20px 70px 20px 70px;
+}
+
+.transname{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pop{
+    color: #575656;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.sup{
+    color:  #575656;
+    font-size: 10px;
+}
+
+.transbutton Button{
+    width: 100%;
+    height: 48px;
+}
+
+@media screen and (max-width:414px) {
+   .bank-details-bodyy{
+    width: 80%;
+   }
+
+   .transdetails{
+    padding: 20px;
+   }
+}
+@media screen and (max-width:575px) {
+   .bank-details-bodyy{
+    width: 80%;
+   }
+
+   .transdetails{
+    padding: 20px;
+   }
+}

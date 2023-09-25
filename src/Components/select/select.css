@@ -1,0 +1,22 @@
+.selectOption{
+    border: 0.5px solid #5B7EB2;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #575656;
+    display: flex;
+    align-items: center;
+    outline: none;
+    /* width: 78px;
+    height: 26px;     */
+    font-weight: 400;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 414px){
+    .selectOption{
+        width: 68px;
+        height: 20px;
+        font-size: 9px;
+    }
+}

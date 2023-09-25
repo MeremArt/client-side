@@ -1,0 +1,41 @@
+.detailscontainer{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.detailscontainer h2{
+    text-align: center;
+    color:  #575656;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.detailscontainer p{
+    text-align: center;
+    color:  #808080;
+    font-size: 10px;
+    font-weight: 400;
+}
+.withdrawinput{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.withdrawinput label{
+    color:  #575656;
+    font-size: 10px;
+    font-weight: 600;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

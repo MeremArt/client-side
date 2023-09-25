@@ -1,0 +1,105 @@
+.bank-details{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+
+.bank-details-body{
+    width: 500px;
+    height: 400px;
+}
+
+.bank-details-header{
+    width: 330px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.amount-pay{
+    font-size: 14px;
+    font-weight: 500;
+    color: #575656;
+}
+
+.amount-fig{
+    font-size: 24px;
+    font-weight: 700;
+    color: #325D9E;
+}
+
+.pay-account{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.pay-account p{
+    color: #575656;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.account-num{
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.account-num p{
+    color: #808080;
+    font-size: 14px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.checkbox p{
+    color: #5B7EB2;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.checkbox input{
+    width: 15px;
+    height: 15px;
+}
+
+.bank-details-body Button{
+    width: 500px;
+    height: 48px;
+}
+
+@media screen and (max-width:375px) {
+    .bank-details-body{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .bank-details-body Button{
+        width: 100%;
+    }
+
+    .account-num{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:675px) {
+    .bank-details-body{
+        width: 100%;
+        /* padding: 40px; */
+    }
+
+    .bank-details-body Button{
+        width: 100%;
+    }
+}

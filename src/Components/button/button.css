@@ -1,19 +1,24 @@
-button{
-    /* width: 151px;
+button {
+  /* width: 151px;
     height: 56px;  */
-    border-radius: 8px;
-    background-color: rgb(9, 61, 139);
-    border: none;
-    color: #fafafa;
-    outline: none;
-    text-align: center;
-    align-items: center;
-    transition: ease-in-out all .6s;
+  border-radius: 8px;
+  background-color: #3daa55;
+  border: none;
+  color: #fafafa;
+  outline: none;
+  text-align: center;
+  align-items: center;
+  transition: ease-in-out all 0.6s;
 }
 
-button:hover{
-    background: linear-gradient(97.47deg, rgba(36, 219, 214, 0.72) 0%, rgba(22, 114, 225, 0.42) 45.25%, #2FECE7 96.83%);  
-    transition: 400ms;
-    border: 1px solid var(--btn-background);
+button:hover {
+  background: linear-gradient(
+    97.47deg,
+    #4dd56b 0%,
+    #92ffaa 45.25%,
+    #92ffaa 96.83%
+  );
+  color: #101010;
+  transition: 400ms;
+  border: 1px solid var(--btn-background);
 }
-

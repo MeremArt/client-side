@@ -1,21 +1,21 @@
-import React from 'react'
-import './footer.css'
-import logoLandingPage from '../../assets/logoLandingPage.svg'
-import { Button } from '../button/button'
-import { Link } from 'react-router-dom'
-
+import React from "react";
+import "./footer.css";
+import logoLandingPage from "../../assets/logoLandingPage.svg";
+import { Button } from "../button/button";
+import { Link } from "react-router-dom";
+import Swap from "../../assets/Swapit.png";
 const Footer = () => {
   return (
     <footer>
       <div className="contain">
         <div className="footer-content">
-        <div className="footer-sectionn">
+          <div className="footer-sectionn">
             <div className="footer_logo">
-                <img src={logoLandingPage} alt="SVG" style={{ width: '90px'}} />
+              <img src={Swap} alt="SVG" width={50} height={50} />
             </div>
-            <p className='fin'>Live beyond borders</p>
-            <Link to='signup'>
-            <Button value='Create Account'/>
+            <p className="fin">Where Local Meets Digital</p>
+            <Link to="signup">
+              <Button value="Create Account" />
             </Link>
           </div>
           <div className="footer-section">
@@ -34,11 +34,11 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h2>Company</h2>
-            <Link to='login'>
+            <Link to="login">
               <p>Login</p>
             </Link>
-            <Link to='signup'>
-            <p>Sign up</p>
+            <Link to="signup">
+              <p>Sign up</p>
             </Link>
             <p>FAQs</p>
             <p>Privacy and policy</p>
@@ -49,16 +49,15 @@ const Footer = () => {
             <p>Administration</p>
             <p>Technical team</p>
           </div>
-          
         </div>
-        
       </div>
-        <div className="footer-bottom">
-            <div className="bozol">
-                <p>&copy; {new Date().getFullYear()} Hyve | Powered by Learnable.</p>
-            </div>
+      <div className="footer-bottom">
+        <div className="bozol">
+          <p>&copy; {new Date().getFullYear()} SwapXpress</p>
         </div>
-    </footer>  )
-}
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

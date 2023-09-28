@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import GoogleImg from "../../assets/Google.svg";
-import HyveLogo from "../../assets/HyveLogo.png";
+import HyveLogo from "../../assets/logo.svg";
 import "./Login.css";
 import { useContext } from "react";
 import { UserContext } from "../../Context/Context";
@@ -11,9 +11,21 @@ import CircularProgress from "@mui/material/CircularProgress";
 const Login = () => {
   let navigate = useNavigate();
 
-  const { email,userData, setEmail, login_user,get_user, userId,loading,setLoading,errorMsg, setErrorMsg,userRole} = useContext(UserContext);
+  const {
+    email,
+    userData,
+    setEmail,
+    login_user,
+    get_user,
+    userId,
+    loading,
+    setLoading,
+    errorMsg,
+    setErrorMsg,
+    userRole,
+  } = useContext(UserContext);
   const { password, setPassword } = useContext(UserContext);
-  
+
   const login = async (event) => {
     event.preventDefault();
 
@@ -22,10 +34,12 @@ const Login = () => {
       password,
     };
     await login_user(data)
-      .then(async(response) => { 
+      .then(async (response) => {
         if (response) {
-          await get_user(userId).then(navigate(`/dashboard`)).catch(err=>console.log('Getting user error', err))
-        } 
+          await get_user(userId)
+            .then(navigate(`/dashboard`))
+            .catch((err) => console.log("Getting user error", err));
+        }
       })
       .catch((error) => {
         if (!error?.response) {
@@ -42,17 +56,15 @@ const Login = () => {
       });
   };
 
-
   console.log(userId);
   return (
     <>
-
       <div className="login-container">
         <div className="login">
           <div className="unknown">
             <div className="login-upper">
               <div className="login-logo">
-                <img src={HyveLogo} alt="" />
+                <img src={HyveLogo} width={100} height={200} alt="logo" />
               </div>
               <h2>Welcome back!</h2>
               <Link>
@@ -79,8 +91,8 @@ const Login = () => {
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
-                  />
-                   {/* <p style={{fontSize:'10px', color:'red',marginBottom:'10px'}}>{errorMsg[0]}</p> */}
+                />
+                {/* <p style={{fontSize:'10px', color:'red',marginBottom:'10px'}}>{errorMsg[0]}</p> */}
               </div>
               <div className="form-input">
                 <label htmlFor="password">Password</label>
@@ -90,29 +102,37 @@ const Login = () => {
                   value={password}
                   placeholder="password"
                   required
-                  autoComplete='password'
+                  autoComplete="password"
                   onChange={(e) => {
                     setPassword(e.target.value);
                   }}
-                  />
-                  {/* <p style={{fontSize:'10px', color:'red',marginBottom:'10px'}}>{errorMsg[1]}</p> */}
+                />
+                {/* <p style={{fontSize:'10px', color:'red',marginBottom:'10px'}}>{errorMsg[1]}</p> */}
               </div>
               <div className="forgot-password-link">
                 <Link to="/forgotpassword">Forgot password?</Link>
               </div>
               <Link to="/dashboard">
                 <div>
-                  <p style={{fontSize:'10px', color:'red',marginBottom:'10px'}}>{errorMsg}</p>
+                  <p
+                    style={{
+                      fontSize: "10px",
+                      color: "red",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    {errorMsg}
+                  </p>
                   <Button
                     value={
                       loading ? (
                         <CircularProgress style={{ color: "#000" }} size={23} />
-                        ) : (
-                          "Login"
-                          )
-                        }
-                        onClick={login}
-                        ></Button>
+                      ) : (
+                        "Login"
+                      )
+                    }
+                    onClick={login}
+                  ></Button>
                 </div>
               </Link>
               <div className="signup-link">

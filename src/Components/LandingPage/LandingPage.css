@@ -1,6 +1,6 @@
-.landingpage{
-    display: grid;
-    place-items: center;
-    max-width: 2100px;
-    margin: 0px auto;
+.landingpage {
+  display: grid;
+  place-items: center;
+  max-width: 2100px;
+  margin: 0px auto;
 }

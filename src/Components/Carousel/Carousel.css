@@ -1,0 +1,35 @@
+.fix {
+  display: flex !important;
+  place-items: none;
+  max-width: 0px;
+}
+.carousel-container {
+  display: flex;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.dark {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background: #fbfbfb;
+}
+
+.caro {
+  width: 100%;
+
+  align-items: center;
+}
+
+.currencysawp {
+  width: 100%;
+  height: 200px;
+  padding: 40px 60px 20px 60px;
+  background: #fbfbfb;
+  cursor: context-menu;
+}

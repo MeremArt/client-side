@@ -1,204 +1,201 @@
-.first_section{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 100px;
-    background: #FBFBFB;
-    cursor: context-menu;
+.first_section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  background: #fbfbfb;
+  cursor: context-menu;
 }
 
-.first_side{
-    width: 55%;
-    height: 100%;
-    padding-top: 100px;
+.first_side {
+  width: 55%;
+  height: 100%;
+  padding-top: 100px;
 }
 
-.first_side h3{
-    font-size: 47px;
+.first_side h3 {
+  font-size: 47px;
+  font-weight: 800;
+  color: #1f552b;
+  line-height: 60px;
+}
+
+.first_side p {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.convert_card {
+  width: 85%;
+  height: 93%;
+  border: 0.5px solid #ced8e8;
+  border-radius: 16px;
+  padding: 50px 30px;
+  background-color: #fff;
+}
+
+.card_header {
+  width: 100%;
+}
+
+.card_header p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #575656;
+  padding-bottom: 20px;
+}
+
+.card_input_box {
+  width: 100%;
+  border-radius: 3.863px;
+  border: 0.5px solid #325d9e;
+  background: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.card_input_boxx {
+  width: 100%;
+  border-radius: 3.863px;
+  border: 0.5px solid #325d9e;
+  background: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+}
+
+.card_input_box p {
+  font-size: 12px;
+  color: #808080;
+}
+
+.card_input_boxx p {
+  font-size: 12px;
+  color: #808080;
+}
+
+.under_text {
+  padding-top: 20px;
+}
+
+.under_text p {
+  font-size: 12px;
+  color: #808080;
+}
+
+.huh {
+  padding-bottom: 5px;
+}
+
+.total_conv p {
+  font-size: 23px;
+  font-weight: 700;
+  color: #1f552b;
+  padding-top: 15px;
+}
+
+.card__button {
+  padding-top: 20px;
+}
+
+.card__button button {
+  width: 100%;
+  height: 45px;
+}
+
+.card__button p {
+  font-size: 11.6px;
+  color: #ef5252;
+  padding-top: 15px;
+}
+
+.second_side {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .first_side h3 {
+    font-size: 42px;
     font-weight: 800;
-    color: #041E45;
+    color: #041e45;
     line-height: 60px;
-}
+  }
 
-.first_side p{
+  .first_side p {
     padding-top: 20px;
-    font-size: 14px;
-    color: #808080;
-}
-
-.convert_card{
-    width: 85%;
-    height: 93%;
-    border: 0.5px solid #CED8E8;
-    border-radius: 16px;
-    padding: 50px 30px;
-    background-color: #FFF;
-}
-
-.card_header{
-    width: 100%;
-}
-
-.card_header p{
-    font-size: 14px;
-    font-weight: 700;
-    color: #575656;
-    padding-bottom: 20px;
-}
-
-.card_input_box{
-    width: 100%;
-    border-radius: 3.863px;
-    border: 0.5px solid #325D9E;
-    background: #FFF;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-}
-
-.card_input_boxx{
-    width: 100%;
-    border-radius: 3.863px;
-    border: 0.5px solid #325D9E;
-    background: #FFF;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 15px;
-}
-
-.card_input_box p{
     font-size: 12px;
     color: #808080;
+  }
 }
 
-.card_input_boxx p{
-    font-size: 12px;
-    color: #808080;
-}
+@media screen and (max-width: 375px) {
+  .first_section {
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 0px 20px;
+  }
 
-.under_text{
-    padding-top: 20px;
-}
-
-.under_text p{
-    font-size: 12px;
-    color: #808080;
-}
-
-.huh{
-    padding-bottom: 5px;
-}
-
-.total_conv p{
-    font-size: 23px;
-    font-weight: 700;
-    color: #325D9E;
-    padding-top: 15px;
-}
-
-.card__button{
-    padding-top: 20px;
-}
-
-.card__button button{
+  .first_side {
     width: 100%;
-    height: 45px;
-}
+    padding-top: 10px;
+  }
 
-.card__button p{
-    font-size: 11.6px;
-    color: #EF5252;
-    padding-top: 15px;
-}
+  .first_side h3 {
+    font-size: 25.5px;
+    font-weight: 800;
+    color: #041e45;
+    line-height: 40px;
+  }
 
+  .first_side p {
+    padding-top: 10px;
+    font-size: 10px;
+    color: #808080;
+  }
 
-
-.second_side{
-    width: 45%;
-    height: 100%;
+  .second_side {
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    padding-top: 30px;
-}
+    justify-content: center;
+  }
 
-@media screen and (max-width: 1200px){
-    .first_side h3{
-        font-size: 42px;
-        font-weight: 800;
-        color: #041E45;
-        line-height: 60px;
-    }
-    
-    .first_side p{
-        padding-top: 20px;
-        font-size: 12px;
-        color: #808080;
-    }
-    
-}
+  .convert_card {
+    width: 100%;
+    padding: 20px 20px;
+  }
 
-@media screen and (max-width: 375px){
-    .first_section{
-        flex-wrap: wrap;
-        height: fit-content;
-        padding: 0px 20px;
-    }
+  .card_input_box p {
+    font-size: 10px;
+  }
 
-    .first_side{
-        width: 100%;
-        padding-top: 10px;
-    }
+  .card_input_boxx p {
+    font-size: 10px;
+  }
 
-    .first_side h3{
-        font-size: 25.5px;
-        font-weight: 800;
-        color: #041E45;
-        line-height: 40px;
-    }
-    
-    .first_side p{
-        padding-top: 10px;
-        font-size: 10px;
-        color: #808080;
-    }
-    
-    .second_side{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .convert_card{
-        width: 100%;
-        padding: 20px 20px;
-    }
+  .under_text p {
+    font-size: 10px;
+  }
 
-    .card_input_box p{
-        font-size: 10px;
-    }
+  .total_conv p {
+    font-size: 16px;
+  }
 
-    .card_input_boxx p{
-        font-size: 10px;
-    }
+  .card__button button {
+    font-size: 13px;
+  }
 
-    .under_text p{
-        font-size: 10px;
-    }
-
-    .total_conv p{
-        font-size: 16px;
-    }
-
-    .card__button button{
-        font-size: 13px;
-    }
-
-    .card__button p{
-        font-size: 10px;
-    }
+  .card__button p {
+    font-size: 10px;
+  }
 }

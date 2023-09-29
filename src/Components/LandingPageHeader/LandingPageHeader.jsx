@@ -55,7 +55,7 @@ const LandingPageHeader = () => {
             </div>
 
             <div className="nav__buttons">
-              <Link to="login">
+              <Link to="/login">
                 <div className="button_1">
                   <Button value="Sign in" />
                 </div>

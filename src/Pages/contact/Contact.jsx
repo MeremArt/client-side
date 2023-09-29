@@ -3,6 +3,7 @@ import "./Contact.css";
 import LandingPageHeader from "../../Components/LandingPageHeader/LandingPageHeader";
 import ContactForm from "../../Components/Contractform/ContactForm";
 import Footer from "../../Components/footer/Footer";
+import Isus from "../../assets/contact.svg";
 const Contact = () => {
   return (
     <section className="doam">
@@ -17,7 +18,15 @@ const Contact = () => {
       <main className="Wrongx doam">
         <section className="flexit doam">
           <div className=" contacttext ">
-            <h2>Your feedback matters. Reach out to us now.</h2>
+            <img
+              src={Isus}
+              className="imgconta"
+              width={400}
+              height={400}
+              alt="illustration"
+            />
+            <br />
+            {/* <h2>Your feedback matters. Reach out to us now.</h2> */}
             <p>
               We're excited to connect with you! Whether you've got burning
               questions, want to explore potential partnerships, or just want to

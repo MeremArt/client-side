@@ -22,7 +22,7 @@ const Section6 = () => {
             remittance experience that is faster, more <br />
             cost-effective, and highly transparent.
           </p>
-
+          {/* 
           <div className="boobs">
             <p className="espp">
               Experience the next-generation remittance platform that leverages
@@ -30,7 +30,7 @@ const Section6 = () => {
               transactions, enjoy a seamless and secure remittance experience
               that is faster, more cost-effective, and highly transparent.
             </p>
-          </div>
+          </div> */}
 
           <div className="titties"></div>
           <div className="table">

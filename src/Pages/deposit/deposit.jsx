@@ -9,7 +9,7 @@ import Successdeposit from "../../Components/succesdeposit/successdeposit";
 import Paywithcrypto from "../../Components/paywithcrypto/paywithcrypto";
 import Makecryptopayment from "../../Components/makecryptopayment/makecryptopayment";
 import Cryptoconfirmation from "../../Components/paywithcrypto/Cryptoconfirmation";
-import Paystack from "../../Components/paystack/paystack";
+// import Paystack from "../../Components/paystack/paystack";
 import { useNavigate } from "react-router-dom";
 
 export const options = [

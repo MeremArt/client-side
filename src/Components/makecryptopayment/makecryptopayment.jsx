@@ -98,9 +98,7 @@ const Makecryptopayment = ({ onNext2, handleGoBack2 }) => {
 
   return (
     <>
-      <main>
-        <Paystack />
-      </main>
+      <main>{/* <Paystack /> */}</main>
       {/* <button onClick={handleGoBack2} className="go_back_text">
         <p>
           <ArrowLeft size="17" color="#073374" />

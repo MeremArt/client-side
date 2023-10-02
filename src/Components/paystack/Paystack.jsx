@@ -84,8 +84,8 @@ const Paystack = ({ onNext, handleGoBack }) => {
             required
           />
         </div>
-
-        <PaystackButton {...componentProps} />
+        {/* 
+        <PaystackButton {...componentProps} /> */}
       </form>
     </div>
   );

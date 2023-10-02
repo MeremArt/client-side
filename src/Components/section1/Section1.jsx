@@ -95,7 +95,7 @@ const Section1 = () => {
           </div>
           <Link to="signup">
             <div className="card__button">
-              <Button value="Get Started" />
+              <button className="btn_create">Get started</button>
               <p>Charge is 1.8% USDT of the amount sent</p>
             </div>
           </Link>

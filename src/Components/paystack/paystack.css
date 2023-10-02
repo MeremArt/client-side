@@ -1,0 +1,35 @@
+.pay-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 16px;
+  background-color: #ffe6de;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.pay-form-group {
+  margin-bottom: 15px;
+}
+
+.pay-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pay-form-group input,
+.pay-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fffbfb;
+  border-radius: 4px;
+}
+
+.pay-form-group textarea {
+  height: 150px;
+}

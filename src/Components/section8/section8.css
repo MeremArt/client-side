@@ -37,6 +37,61 @@
   transition: ease-in-out 400ms;
 }
 
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  letter-spacing: 4px;
+
+  font-size: 12px;
+}
+
+/* Default styles for the button */
+.join-newsletter-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Responsive styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .newsletter-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .join-newsletter-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .newsletter-input {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .join-newsletter-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .eight_section {
     height: fit-content;

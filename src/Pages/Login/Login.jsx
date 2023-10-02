@@ -67,17 +67,17 @@ const Login = () => {
                 <img src={HyveLogo} width={100} height={200} alt="logo" />
               </div>
               <h2>Welcome back!</h2>
-              <Link>
+              {/* <Link>
                 <button className="google-btn">
                   <p> Continue with Google</p>
                   <img src={GoogleImg} />
                 </button>
-              </Link>
-              <div className="use-email">
+              </Link> */}
+              {/* <div className="use-email">
                 <div className="divider"></div>
                 <p>Or use email</p>
                 <div className="divider"></div>
-              </div>
+              </div> */}
             </div>
             <form>
               <div className="form-input">
@@ -99,7 +99,6 @@ const Login = () => {
                 <input
                   type="password"
                   name="password"
-                  value={password}
                   placeholder="password"
                   required
                   autoComplete="password"

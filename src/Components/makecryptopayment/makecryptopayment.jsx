@@ -14,7 +14,7 @@ import { useContext } from "react";
 import { UserContext } from "../../Context/Context";
 import axios from "axios";
 import { ArrowLeft } from "iconsax-react";
-import Paystack from "../paystack/paystack";
+
 import "./makecryptopayment.css";
 
 const Makecryptopayment = ({ onNext2, handleGoBack2 }) => {

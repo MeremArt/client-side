@@ -23,6 +23,7 @@ import Accessdenied from "../Pages/accessdenied/accessdenied";
 import Pagenotfound from "../Pages/pagenotfound/pagenotfound";
 import Receive from "../Pages/receive/receive";
 import Contact from "../Pages/contact/Contact";
+// import Paystack from "../Pages/paystack/paystack";
 const Routers = () => {
   // const {userRole} = useContext(UserContext)
   const [userRole, setUserRole] = useState("");

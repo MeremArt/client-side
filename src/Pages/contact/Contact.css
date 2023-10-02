@@ -16,7 +16,8 @@
 .imgconta {
   display: flex;
   align-items: center;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
+  margin: auto;
   justify-content: center;
 }
 

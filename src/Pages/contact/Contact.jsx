@@ -21,7 +21,7 @@ const Contact = () => {
             <img
               src={Isus}
               className="imgconta"
-              width={400}
+              width={600}
               height={400}
               alt="illustration"
             />

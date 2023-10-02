@@ -53,10 +53,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={Transparencyemoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-10px",
+
                       left: "39px",
                     }}
                   />
@@ -64,10 +65,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={withdrawalemoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-15px",
+
                       left: "39px",
                     }}
                   />
@@ -75,10 +77,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={cryptosupportotheremoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-15px",
+
                       left: "39px",
                     }}
                   />
@@ -95,10 +98,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={transparencyothersemoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-15px",
+
                       left: "39px",
                     }}
                   />
@@ -106,10 +110,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={withdrawaltolocalemoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-15px",
+
                       left: "39px",
                     }}
                   />
@@ -117,10 +122,11 @@ const Section6 = () => {
                 <p>
                   <img
                     src={cryptosupportemoji}
+                    className="funnyfaces"
                     style={{
                       width: "22px",
                       height: "22px",
-                      marginTop: "-15px",
+
                       left: "39px",
                     }}
                   />

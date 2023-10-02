@@ -7,7 +7,7 @@ import Section3 from "../section3/Section3";
 import Section4 from "../section4/Section4";
 
 import Section6 from "../section6/Section6";
-
+import Nav from "../navtw/Nav";
 import Section8 from "../section8/Section8";
 import Carousel from "../Carousel/Carousel";
 import Carro from "../Carousel/Carro";

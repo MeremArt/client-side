@@ -1,8 +1,12 @@
 .eight_section {
   width: 100%;
-  height: 480px;
-  background-color: #2e8040;
+  height: 100vh;
+  background-color: #c9ffd5;
   text-align: center;
+  background-image: url("../../assets/bgmoney.png");
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +16,12 @@
 .eight_section h3 {
   font-size: 32px;
   font-weight: 700;
-  color: #fbfbfb;
+  color: #1f552c;
   padding-bottom: 30px;
 }
 
 .des {
-  color: #fbfbfb;
+  color: #1f552c;
   font-size: 14px;
   padding-bottom: 30px;
   display: block;

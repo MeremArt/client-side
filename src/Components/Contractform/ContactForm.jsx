@@ -1,64 +1,62 @@
 import React, { useState } from "react";
 import "./Contract.css"; // Import your CSS file
-
+import { toast, ToastContainer } from "react-toastify"; // Import react-toastify
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  // const firebaseConfig = {
-  //   apiKey: "AIzaSyB80mx7dC6XPrbd5yQzAIAajWW70bFAl-w",
-  //   authDomain: "collegely-dl-waitlist.firebaseapp.com",
-  //   projectId: "collegely-dl-waitlist",
-  //   storageBucket: "collegely-dl-waitlist.appspot.com",
-  //   messagingSenderId: "459988066650",
-  //   appId: "1:459988066650:web:ddabe0958a08a19378d363",
-  //   measurementId: "G-YVTJJ3RLYR",
-  // };
-
-  // const app = initializeApp(firebaseConfig);
-  // const db = getFirestore();
-
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prevData) => ({
-  //     ...prevData,
-  //     [name]: value,
-  //   }));
-  // };
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [subject, setSubject] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const myCollection = collection(
-      db,
-      "Website",
-      "Contacts",
-      formData["email"]
-    );
-
+    const formData = {
+      name,
+      email,
+      subject,
+      message,
+    };
     try {
-      const docRef = await addDoc(myCollection, formData);
-      alert("your response has been submitted✅. We will get in touch shortly");
-      window.location.reload();
+      const response = await axios.post(
+        "https://swapxpress.onrender.com/api/v1/contact/create",
+        formData
+      );
+
+      if (response.status === 200) {
+        toast.success("Your response has been submitted", {
+          position: "top-right",
+          autoClose: 3000,
+        });
+
+        // Clear form fields
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+      } else {
+        console.log(response.statusText);
+        alert("An error occurred. Please try again later.");
+      }
     } catch (error) {
-      console.log(error);
-      alert("An error occured, Please try again later.");
+      console.error(error);
+      alert("An error occurred. Please try again later.");
     }
   };
 
   return (
     <div className="contact-form-container">
-      <form onSubmit={""}>
+      <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input
             type="text"
             id="name"
             name="name"
             placeholder="Name"
-            onChange={""}
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
             required
           />
         </div>
@@ -68,7 +66,11 @@ const ContactForm = () => {
             id="email"
             name="email"
             placeholder="Email Address"
-            onChange={""}
+            autoComplete="email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
             required
           />
         </div>
@@ -78,7 +80,10 @@ const ContactForm = () => {
             id="subject"
             name="subject"
             placeholder="Subject"
-            onChange={""}
+            value={subject}
+            onChange={(e) => {
+              setSubject(e.target.value);
+            }}
             required
           />
         </div>
@@ -87,12 +92,16 @@ const ContactForm = () => {
             id="message"
             name="message"
             placeholder="Message"
-            onChange={""}
+            value={message}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
             required
           />
         </div>
         <button type="submit">Submit</button>
       </form>
+      <ToastContainer />
     </div>
   );
 };

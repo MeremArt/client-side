@@ -78,10 +78,12 @@ const Carousel = () => {
           <p>
             We leverage groundbreaking blockchain technology to simplify and
             accelerate the conversion of your local currency into
+            <br />
             cryptocurrency. Our focus on security and cost-efficiency,
-            especially for smaller amounts, is unwavering. We are dedicated to
-            transforming currency exchanges to provide a seamless experience for
-            all your digital asset requirements.
+            especially for smaller amounts, is unwavering.
+            <br /> We are dedicated to transforming currency exchanges to
+            provide a seamless experience for all your digital asset
+            requirements.
           </p>
         </div>
       </div>

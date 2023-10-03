@@ -5,14 +5,14 @@ import Section1 from "../section1/Section1";
 import Section2 from "../section2/Section2";
 import Section3 from "../section3/Section3";
 import Section4 from "../section4/Section4";
-
+import Section7 from "../section7/Section7";
 import Section6 from "../section6/Section6";
 import Nav from "../navtw/Nav";
 import Section8 from "../section8/Section8";
 import Carousel from "../Carousel/Carousel";
 import Carro from "../Carousel/Carro";
 import Footer from "../footer/Footer";
-
+import Faq from "../Faq/Faq";
 const LandingPage = () => {
   return (
     <>
@@ -27,10 +27,11 @@ const LandingPage = () => {
 
         <Section6 />
         <Carro />
+
         {/* <Section7 /> */}
 
         <Section8 />
-
+        <Faq />
         {/* <Carousel /> */}
         <Footer />
       </div>

@@ -1,0 +1,55 @@
+.Faq-cdl h1 {
+  justify-content: center;
+  display: flex;
+  color: #1f552c;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px; /* 125% */
+  letter-spacing: -1.44px;
+}
+.makeito {
+  background: #fbfbfb;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  border-top: 1px solid var(--black-006, #ececec);
+  border-bottom: 1px solid var(--black-006, #ececec);
+}
+
+.accordion-title:hover {
+  background-color: #4dd56b;
+  color: white;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+.accordion-content {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+.text-faq {
+  display: flex;
+}
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+}

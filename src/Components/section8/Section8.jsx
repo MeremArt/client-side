@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./section8.css";
 import { Button } from "../button/button";
 import { Link } from "react-router-dom";
-import { BsSendCheckFill } from "react-icons/bs";
+import { FaEnvelope } from "react-icons/fa";
 const Section8 = () => {
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    // Add your logic here to handle the subscription
-    const email = e.target.email.value; // Get the entered email
-    alert(`You have subscribed with the email: ${email}`);
+  const [email, setEmail] = useState("");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic (e.g., send the email to your server)
+    console.log("Email submitted:", email);
+    // Reset the input field
+    window.alert("Thank you for subscribing to our newsletter!");
+    setEmail("");
+  };
+
   return (
     <div className="eight_section">
       <div className="vodo">
@@ -30,10 +39,22 @@ const Section8 = () => {
           longer. It's time to break free and experience the power of seamless
           cross-border transactions.
         </p>
-
-        <button type="submit" className="join-newsletter-button">
-          <BsSendCheckFill className="icon" />
-        </button>
+        <div className="newsletter-form-container">
+          <form className="newsletter-form" onSubmit={handleSubmit}>
+            <div className="input-container">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                className="inputclass"
+                onChange={handleEmailChange}
+              />
+              <button className="btninput" type="submit">
+                <FaEnvelope className="email-icon" size={20} />
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

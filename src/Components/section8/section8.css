@@ -57,17 +57,55 @@
   font-size: 12px;
 }
 
-/* Default styles for the button */
-.join-newsletter-button {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+/* NewsletterForm.css */
+.newsletter-form-container {
+  text-align: center;
+  margin: 20px;
+}
 
-  transition: background-color 0.3s, color 0.3s;
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  border: 1px solid #12331a;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.inputclass {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.btninput {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.btninput:hover {
+}
+
+.email-icon {
+  font-size: 1.2rem;
+  margin: auto;
 }
 
 /* Responsive styles for screens with a maximum width of 768px */

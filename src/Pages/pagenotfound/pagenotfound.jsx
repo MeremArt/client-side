@@ -10,7 +10,7 @@ const Pagenotfound = () => {
     <>
       <div className="pagenotfound-container">
         <div className="pagenotfound-logo">
-          <img src={HyveLogo} alt="Hyvelogo" />
+          {/* <img src={HyveLogo} alt="Hyvelogo" /> */}
         </div>
         <div className="pagenotfound">
           <div className="pagenotfound-text">

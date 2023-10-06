@@ -40,3 +40,14 @@
 .doam {
   background-color: #fbfbfb;
 }
+@media (max-width: 480px) {
+  .imgconta {
+    display: none;
+  }
+  .flexit {
+    flex-direction: column;
+  }
+  .contacttext {
+    padding-bottom: 30px;
+  }
+}

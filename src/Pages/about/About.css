@@ -1,0 +1,64 @@
+.Heroabout {
+  background-image: url("../../assets/bgabout.png");
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.aboutbg {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.firstabout {
+}
+.secondabout {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.abouttext {
+  color: #c9ffd5;
+
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106%; /* 67.84px */
+  letter-spacing: 3.84px;
+  text-transform: uppercase;
+}
+.firstabout p {
+  margin-top: 20px;
+  color: #fff;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 152.5%; /* 36.6px */
+  text-transform: uppercase;
+}
+.aboutwhite {
+  background-color: #fbfbfb;
+}
+.secabtsec {
+  flex-direction: column;
+  padding: 50px;
+}
+.secabtsec h2 {
+  color: #12331a;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162.5%; /* 54.9px */
+}
+.swappro {
+  display: flex;
+  padding: 50px;
+}
+.swaptalk {
+  flex: 1;
+}
+.swapgirl {
+  flex: 1;
+}

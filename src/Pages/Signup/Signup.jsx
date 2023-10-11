@@ -9,7 +9,7 @@ import { Button } from "../../Components/button/button";
 import CircularProgress from "@mui/material/CircularProgress";
 
 const REDIRECT_URL = "http://localhost:5174/dashboard";
-
+const url = "https://swapxpress.onrender.com/api/v1/users/signUp";
 const Signup = () => {
   let navigate = useNavigate();
 
@@ -31,7 +31,7 @@ const Signup = () => {
     setLoading(true);
 
     axios
-      .post("https://hyve-finance-demo.onrender.com/api/v1/users/signup", data)
+      .post(url, data)
       .then((response) => {
         console.log(response);
         setLoading(false);

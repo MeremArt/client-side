@@ -59,7 +59,7 @@ const About = () => {
               <img src={prolog} loading="lazy" />
             </div>
             <div className="swapgirl">
-              <h2></h2>
+              <h2>p</h2>
             </div>
           </div>
         </section>

@@ -11,12 +11,11 @@ const About = () => {
       <br />
       <br />
       <br />
-      <br />
+
       <main>
         <div className="Heroabout">
           <br />
-          <br />
-          <br />
+
           <br />
           <section className="aboutbg">
             <div className="firstabout">

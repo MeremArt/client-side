@@ -24,7 +24,7 @@ import Pagenotfound from "../Pages/pagenotfound/pagenotfound";
 import Receive from "../Pages/receive/receive";
 import Contact from "../Pages/contact/Contact";
 import About from "../Pages/about/about";
-// import Paystack from "../Pages/paystack/paystack";
+
 const Routers = () => {
   // const {userRole} = useContext(UserContext)
   const [userRole, setUserRole] = useState("");

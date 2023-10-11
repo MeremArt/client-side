@@ -23,7 +23,7 @@ import Accessdenied from "../Pages/accessdenied/accessdenied";
 import Pagenotfound from "../Pages/pagenotfound/pagenotfound";
 import Receive from "../Pages/receive/receive";
 import Contact from "../Pages/contact/Contact";
-import About from "../Pages/about/about";
+import About from "../Pages/about/About";
 
 const Routers = () => {
   // const {userRole} = useContext(UserContext)

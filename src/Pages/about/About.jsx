@@ -11,7 +11,7 @@ const About = () => {
       <br />
       <br />
       <br />
-
+      <br />
       <main>
         <div className="Heroabout">
           <br />

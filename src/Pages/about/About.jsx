@@ -69,7 +69,7 @@ const About = () => {
                 vision of Swapxpress was to create a superior service that not
                 only streamlined the currency exchange process but also fostered
                 communication, facilitated memorable experiences, and rekindled
-                the sense of community inherent in the world of cryptocurrency.
+                the sense of community inherent in the world of cryptocurrency
               </p>
             </div>
           </div>

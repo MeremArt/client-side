@@ -52,6 +52,9 @@
   font-weight: 700;
   line-height: 162.5%; /* 54.9px */
 }
+.secabtsec p {
+  line-height: 162.5%;
+}
 .swappro {
   display: flex;
   padding: 50px;
@@ -61,4 +64,15 @@
 }
 .swapgirl {
   flex: 1;
+}
+.swapgirl h2 {
+  color: #12331a;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162.5%;
+  font-size: 36px;
+}
+.swapgirl p {
+  padding-top: 10px;
+  line-height: 172.5%;
 }

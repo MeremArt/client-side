@@ -58,10 +58,23 @@ const About = () => {
               <img src={prolog} loading="lazy" />
             </div>
             <div className="swapgirl">
-              <h2>p</h2>
+              <h2 className="">Prologue</h2>
+              <p>
+                Swapxpress was founded to address a significant challenge: how
+                to facilitate seamless communication while converting local
+                currency to cryptocurrency. The founders of Swapxpress, driven
+                by a shared passion for digital assets, recognized the need for
+                a more efficient and user-friendly solution. Existing tools for
+                this purpose were often slow, unreliable, and complicated. The
+                vision of Swapxpress was to create a superior service that not
+                only streamlined the currency exchange process but also fostered
+                communication, facilitated memorable experiences, and rekindled
+                the sense of community inherent in the world of cryptocurrency.
+              </p>
             </div>
           </div>
         </section>
+        <section className="aboutwhite"></section>
       </main>
     </>
   );

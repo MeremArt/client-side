@@ -3,6 +3,7 @@ import LandingPageHeader from "../../Components/LandingPageHeader/LandingPageHea
 import swapimg from "../../assets/aboutill.png";
 import prolog from "../../assets/bro.png";
 import "./About.css";
+import Footer from "../../Components/footer/Footer";
 const About = () => {
   return (
     <>
@@ -76,6 +77,7 @@ const About = () => {
         </section>
         <section className="aboutwhite"></section>
       </main>
+      <Footer />
     </>
   );
 };

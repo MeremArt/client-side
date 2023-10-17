@@ -21,14 +21,13 @@ const About = () => {
           <section className="aboutbg">
             <div className="firstabout">
               <h2 className="abouttext">
-                Bridging the gap between <br /> local and digital currencies.
+                Bridging the Gap <br /> Between <br /> Local and Digital
+                Currencies.
               </h2>
               <p>
-                Experience the future of currency exchange with our <br />
-                cutting-edge blockchain technology. Say goodbye to the hassle{" "}
-                <br />
+                Experience the future of currency exchange with our cutting-edge
+                blockchain technology. Say goodbye to the hassle <br />
                 and delays of traditional conversions – we make turning your{" "}
-                <br />
                 local currency into cryptocurrency fast and easy.
               </p>
             </div>

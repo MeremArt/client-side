@@ -23,18 +23,17 @@
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 106%; /* 67.84px */
+  line-height: 116%; /* 67.84px */
   letter-spacing: 3.84px;
 }
 .firstabout p {
   margin-top: 20px;
   color: #fff;
 
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 152.5%; /* 36.6px */
-  text-transform: uppercase;
+  line-height: 162.5%; /* 36.6px */
 }
 .aboutwhite {
   background-color: #fbfbfb;

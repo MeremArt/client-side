@@ -1,6 +1,7 @@
 import React from "react";
 import LandingPageHeader from "../../Components/LandingPageHeader/LandingPageHeader";
 import swapimg from "../../assets/aboutill.png";
+import where from "../../assets/where.png";
 import prolog from "../../assets/bro.png";
 import "./About.css";
 import Footer from "../../Components/footer/Footer";
@@ -73,8 +74,26 @@ const About = () => {
               </p>
             </div>
           </div>
+          <div className="swappro">
+            <div className="swapgirl">
+              <h2 className="">Where are we Now?</h2>
+              <p>
+                As of now, Swapxpress stands as a promising platform that
+                focuses on bridging the gap between cryptocurrencies and local
+                currencies. it serves as a pivotal tool for users seeking a
+                seamless means to convert their local currency into
+                cryptocurrency and vice versa. Swapxpress is committed to
+                simplifying and streamlining this process, allowing individuals
+                and businesses to more easily engage with the world of digital
+                assets.
+              </p>
+            </div>
+            <div className="swaptalk">
+              <img className="where" src={where} loading="lazy" />
+            </div>
+          </div>
         </section>
-        <section className="aboutwhite"></section>
+        {/* <section className="aboutwhite"></section> */}
       </main>
       <Footer />
     </>

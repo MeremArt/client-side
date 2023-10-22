@@ -24,7 +24,7 @@ import Pagenotfound from "../Pages/pagenotfound/pagenotfound";
 import Receive from "../Pages/receive/receive";
 import Contact from "../Pages/contact/Contact";
 import About from "../Pages/about/About";
-
+import Feature from "../Pages/features/Feature";
 const Routers = () => {
   // const {userRole} = useContext(UserContext)
   const [userRole, setUserRole] = useState("");
@@ -65,6 +65,7 @@ const Routers = () => {
         <Route path="*" element={<Pagenotfound />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/features" element={<Feature />} />
         <Route
           path="/admin"
           element={

@@ -10,6 +10,7 @@ const navLinks = [
   { id: 2, title: "Features", url: "/features" },
   { id: 3, title: "About Us", url: "/about" },
   { id: 4, title: "Contact Us", url: "/contact" },
+  { id: 4, title: "Blog", url: "/blog" },
 ];
 
 const HeaderLogo = () => (

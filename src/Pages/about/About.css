@@ -77,3 +77,18 @@
 .where {
   padding-left: 70px;
 }
+.Swapslider {
+  overflow-x: hidden;
+}
+.Swapslider h2 {
+  color: #12331a;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162.5%;
+  font-size: 36px;
+  padding-left: 50px;
+}
+.Swapslider p {
+  line-height: 162.5%;
+  padding-left: 50px;
+}

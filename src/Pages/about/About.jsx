@@ -5,6 +5,7 @@ import where from "../../assets/where.png";
 import prolog from "../../assets/bro.png";
 import "./About.css";
 import Footer from "../../Components/footer/Footer";
+import AutoPlaySlide from "../../Components/Autoslide/AutoPlaySlide";
 const About = () => {
   return (
     <>
@@ -92,8 +93,28 @@ const About = () => {
               <img className="where" src={where} loading="lazy" />
             </div>
           </div>
+          <br />
+          <br />
+          <br />
+
+          <section className="Swapslider">
+            <div>
+              <h2>Core Values</h2>
+              <p>Foundational principles and beliefs that guide us</p>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div>
+              <AutoPlaySlide />
+            </div>
+          </section>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </section>
-        {/* <section className="aboutwhite"></section> */}
       </main>
       <Footer />
     </>

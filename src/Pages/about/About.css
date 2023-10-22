@@ -1,10 +1,10 @@
 .Heroabout {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1697508990/bgabout_ckm3nw.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1697991022/Desktop_-_6_1_eo0vmc.png");
   background-size: cover; /* Adjust the background size as needed */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: center center;
   width: 100%;
-  height: 100%;
+  height: 150vh;
 }
 .aboutbg {
   display: flex;

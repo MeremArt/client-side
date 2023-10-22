@@ -16,28 +16,7 @@ const About = () => {
       <br />
 
       <main>
-        <div className="Heroabout">
-          <br />
-
-          <br />
-          <section className="aboutbg">
-            <div className="firstabout">
-              <h2 className="abouttext">
-                Bridging the Gap <br /> Between <br /> Local and Digital
-                Currencies.
-              </h2>
-              <p>
-                Experience the future of currency exchange with our cutting-edge
-                blockchain technology. Say goodbye to the hassle <br />
-                and delays of traditional conversions – we make turning your{" "}
-                local currency into cryptocurrency fast and easy.
-              </p>
-            </div>
-            <div className="secondabout">
-              <img width={650} height={650} loading="lazy" src={swapimg} />
-            </div>
-          </section>
-        </div>
+        <div className="Heroabout"></div>
         <section className="aboutwhite">
           <br />
           <br />

@@ -32,7 +32,8 @@ const About = () => {
               characterized by their sluggishness, unreliability, and
               complexity.
               <br />
-              We had a vision: to introduce a superior service that not only
+              <br />
+              We had a vision to introduce a superior service that not only
               streamlined the currency exchange process but also nurtured
               communication, facilitated memorable experiences, and reignited
               the inherent sense of community within the cryptocurrency world.

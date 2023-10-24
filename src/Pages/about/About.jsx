@@ -23,15 +23,21 @@ const About = () => {
           <div className="secabtsec">
             <h2>Our story</h2>
             <p>
-              SwapXpress is all about empowering individuals to forge
-              connections and discover a sense of belonging in their lives. Our
-              mission is to simplify and enhance your ability to engage in
-              meaningful conversations with those who matter most to you. We
-              aspire to help you cultivate authentic relationships, whether it's
-              with your local community or a global network of like-minded
-              individuals. Originality, reliability, a touch of playfulness, and
-              relatability are the core values that unite both our users and our
-              dedicated team at SwapXpress.
+              SwapXpress emerged in response to a pressing challenge: the need
+              to bridge the gap between local currencies and cryptocurrency
+              while facilitating effortless communication. The founders of
+              SwapXpress, united by a deep enthusiasm for digital assets,
+              identified the demand for a more efficient and user-centric
+              solution. The prevailing tools in this space were frequently
+              characterized by their sluggishness, unreliability, and
+              complexity.
+              <br />
+              We had a vision: to introduce a superior service that not only
+              streamlined the currency exchange process but also nurtured
+              communication, facilitated memorable experiences, and reignited
+              the inherent sense of community within the cryptocurrency world.
+              This mission was inspired by a commitment to making the process
+              not just functional but enjoyable and enriching for all users.
             </p>
           </div>
           <div className="swappro">

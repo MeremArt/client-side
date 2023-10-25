@@ -25,6 +25,7 @@ import Receive from "../Pages/receive/receive";
 import Contact from "../Pages/contact/Contact";
 import About from "../Pages/about/About";
 import Feature from "../Pages/features/Feature";
+import Blog from "../Pages/Blog/Blog";
 const Routers = () => {
   // const {userRole} = useContext(UserContext)
   const [userRole, setUserRole] = useState("");
@@ -66,6 +67,7 @@ const Routers = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/features" element={<Feature />} />
+        <Route path="/blog" element={<Blog />} />
         <Route
           path="/admin"
           element={

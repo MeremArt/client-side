@@ -35,9 +35,7 @@ function Blog() {
       setTimeout(() => set(["Anticipate", "the", "Awesome"]), 2000)
     );
     ref.current.push(setTimeout(() => set(["Be", "Prepared "]), 5000));
-    ref.current.push(
-      setTimeout(() => set(["Site ", "Under ", "Construction"]), 8000)
-    );
+    ref.current.push(setTimeout(() => set(["Stay", "Tuned"]), 8000));
   }, []);
 
   useEffect(() => {

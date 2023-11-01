@@ -1,0 +1,40 @@
+.Featurebg {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698373658/Desktop_-_17_ipimta.png");
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+}
+
+.Featurehead {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.Headone {
+  flex: 1;
+}
+.Headtwo {
+  flex: 1;
+}
+.Headone h2 {
+  color: #c9ffd5;
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; /* 54px */
+  letter-spacing: 2.4px;
+  text-transform: capitalize;
+}
+.Headone p {
+  color: #fff;
+  width: 660px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 152.5%; /* 36.6px */
+  text-transform: capitalize;
+}

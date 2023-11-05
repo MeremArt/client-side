@@ -22,7 +22,7 @@ const About = () => {
           <br />
           <div className="secabtsec">
             <h2>Our story</h2>
-            <p>
+            <p id="space_mobile">
               SwapXpress emerged in response to a pressing challenge: the need
               to bridge the gap between local currencies and cryptocurrency
               while facilitating effortless communication. The founders of

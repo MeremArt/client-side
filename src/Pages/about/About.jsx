@@ -46,7 +46,9 @@ const About = () => {
               <img src={prolog} loading="lazy" />
             </div>
             <div className="swapgirl">
-              <h2 className="">Prologue</h2>
+              <h2 id="space_mobile" className="">
+                Prologue
+              </h2>
               <p>
                 Swapxpress was founded to address a significant challenge: how
                 to facilitate seamless communication while converting local
@@ -62,8 +64,18 @@ const About = () => {
             </div>
           </div>
           <div className="swappro">
+            <div className="swaptalk">
+              <img
+                id="where_des"
+                className="where"
+                src={where}
+                loading="lazy"
+              />
+            </div>
             <div className="swapgirl">
-              <h2 className="">Where are we Now?</h2>
+              <h2 id="space_mobile" className="">
+                Where are we Now?
+              </h2>
               <p>
                 As of now, Swapxpress stands as a promising platform that
                 focuses on bridging the gap between cryptocurrencies and local
@@ -76,7 +88,12 @@ const About = () => {
               </p>
             </div>
             <div className="swaptalk">
-              <img className="where" src={where} loading="lazy" />
+              <img
+                id="where_fix"
+                className="where"
+                src={where}
+                loading="lazy"
+              />
             </div>
           </div>
           <br />

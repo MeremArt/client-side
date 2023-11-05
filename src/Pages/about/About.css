@@ -92,3 +92,56 @@
   line-height: 162.5%;
   padding-left: 50px;
 }
+#where_des {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .secabtsec {
+    flex-direction: row;
+  }
+  .secabtsec h2 {
+    font-size: 20px;
+  }
+  .aboutbg {
+    flex-direction: row;
+  }
+  .Heroabout {
+    width: 100%;
+    height: 50vh;
+  }
+  .secabtsec p {
+    line-height: 160.5%;
+    font-size: 10px;
+  }
+  .swappro {
+    flex-direction: row;
+    display: block;
+  }
+  .Swapslider h2 {
+    font-size: 20px;
+  }
+  .swapgirl h2 {
+    font-size: 20px;
+  }
+  .swapgirl p {
+    line-height: 160.5%;
+    font-size: 10px;
+  }
+  #space_mobile {
+    margin-top: 25px;
+  }
+  .Swapslider p {
+    line-height: 150.5%;
+    font-size: 10px;
+  }
+  #where_fix {
+    margin-top: 28px;
+    padding-left: 0;
+    display: none;
+  }
+  #where_des {
+    display: block;
+    margin-top: 28px;
+    padding-left: 0;
+  }
+}

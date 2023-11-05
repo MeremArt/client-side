@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
           <div className="swappro">
-            <div className="swaptalk">
+            <div className="">
               <img
                 id="where_des"
                 className="where"

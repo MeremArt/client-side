@@ -50,18 +50,18 @@ const LandingPageHeader = () => {
           </ul>
         </nav>
       </div>
-      {/* <div className="nav__buttons">
-        <NavLink to="/login">
-          <div className="button_1">
+      <div className="nav__buttons">
+        <NavLink to="">
+          {/* <div className="button_1">
             <Button value="Sign in" />
-          </div>
+          </div> */}
         </NavLink>
-        <NavLink to="/signup">
+        <NavLink to="">
           <div className="button_2">
-            <button className="btn_create">Create account</button>
+            <button className="btn_create">Join Wait</button>
           </div>
         </NavLink>
-      </div> */}
+      </div>
     </div>
   );
 

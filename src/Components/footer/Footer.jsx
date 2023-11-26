@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <p className="fin">Where Local Meets Digital</p>
             <Link to="signup">
-              <Button value="Create Account" />
+              <Button value="Join Waitlist" />
             </Link>
           </div>
           <div className="footer-section">
@@ -34,12 +34,12 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h2>Company</h2>
-            <Link to="login">
+            {/* <Link to="login">
               <p>Login</p>
             </Link>
             <Link to="signup">
               <p>Sign up</p>
-            </Link>
+            </Link> */}
             <p>FAQs</p>
             <p>Privacy and policy</p>
             <p>Terms and conditions</p>

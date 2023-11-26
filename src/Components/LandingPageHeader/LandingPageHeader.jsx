@@ -58,7 +58,7 @@ const LandingPageHeader = () => {
         </NavLink>
         <NavLink to="">
           <div className="button_2">
-            <button className="btn_create">Join Wait</button>
+            <button className="btn_create">Join Waitlist</button>
           </div>
         </NavLink>
       </div>

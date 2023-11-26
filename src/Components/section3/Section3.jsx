@@ -30,7 +30,7 @@ const Section3 = () => {
         </p>
         <Link to="signup">
           <div className="third_section_button">
-            <Button value="Join SwapXpress" />
+            <Button value="Join Waitlist" />
           </div>
         </Link>
       </div>

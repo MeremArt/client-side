@@ -50,7 +50,7 @@ const LandingPageHeader = () => {
           </ul>
         </nav>
       </div>
-      <div className="nav__buttons">
+      {/* <div className="nav__buttons">
         <NavLink to="/login">
           <div className="button_1">
             <Button value="Sign in" />
@@ -61,7 +61,7 @@ const LandingPageHeader = () => {
             <button className="btn_create">Create account</button>
           </div>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 

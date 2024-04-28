@@ -47,13 +47,14 @@ const Section1 = () => {
     <div className="first_section">
       <div className="first_side">
         <h3>
-          Effortless Swapping Local Currency to Your Preferred Cryptocurrency.
+          Redefining Trading Excellence with <br />
+          Next-Level Intelligence
         </h3>
         <p>
-          Experience a Cutting-Edge Blockchain-Powered Solution that Ensures
-          Swift, Secure, and Transparent Conversions of Your Local Currency to
-          the Cryptocurrency of Your Choice, Tailored Specifically to Your
-          Needs.
+          Dive into the Future of Crypto Trading with SwapXpress: Where
+          AI-Powered Bots Drive Swift, Secure, and Transparent Transactions,
+          Crafting Tailored Strategies for Your Optimal Success in the
+          Cryptocurrency Market.
         </p>
       </div>
       <div className="second_side">

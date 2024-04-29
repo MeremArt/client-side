@@ -23,22 +23,22 @@ const About = () => {
           <div className="secabtsec">
             <h2>Our story</h2>
             <p id="space_mobile">
-              SwapXpress emerged in response to a pressing challenge: the need
-              to bridge the gap between local currencies and cryptocurrency
-              while facilitating effortless communication. The founders of
-              SwapXpress, united by a deep enthusiasm for digital assets,
-              identified the demand for a more efficient and user-centric
-              solution. The prevailing tools in this space were frequently
-              characterized by their sluggishness, unreliability, and
-              complexity.
+              SwapXpress was born out of a shared passion for digital assets and
+              a collective desire to revolutionize the cryptocurrency trading
+              landscape. Our journey began with a simple yet profound
+              realization: the existing tools for trading cryptocurrencies were
+              falling short of meeting the evolving needs of users. They were
+              plagued by issues of sluggishness, unreliability, and unnecessary
+              complexity, hindering traders from fully capitalizing on the
+              potential of this dynamic market.
               <br />
               <br />
-              We had a vision to introduce a superior service that not only
-              streamlined the currency exchange process but also nurtured
-              communication, facilitated memorable experiences, and reignited
-              the inherent sense of community within the cryptocurrency world.
-              This mission was inspired by a commitment to making the process
-              not just functional but enjoyable and enriching for all users.
+              Driven by a vision to redefine cryptocurrency trading, we set out
+              to create a platform that streamlined currency exchange, fostered
+              seamless communication, and revitalized community engagement. At
+              SwapXpress, cutting-edge AI-powered bots lie at the core,
+              empowering users with intelligent trading strategies for swift,
+              secure transactions, and maximum profitability.
             </p>
           </div>
           <div className="swappro">
@@ -50,16 +50,23 @@ const About = () => {
                 Prologue
               </h2>
               <p>
-                Swapxpress was founded to address a significant challenge: how
-                to facilitate seamless communication while converting local
-                currency to cryptocurrency. The founders of Swapxpress, driven
-                by a shared passion for digital assets, recognized the need for
-                a more efficient and user-friendly solution. Existing tools for
-                this purpose were often slow, unreliable, and complicated. The
-                vision of Swapxpress was to create a superior service that not
-                only streamlined the currency exchange process but also fostered
-                communication, facilitated memorable experiences, and rekindled
-                the sense of community inherent in the world of cryptocurrency
+                In the ever-evolving landscape of digital assets, a vision was
+                sparked by the shortcomings of traditional cryptocurrency
+                trading tools. The founders of SwapXpress, driven by a shared
+                passion for innovation, observed the hurdles hindering traders:
+                sluggishness, unreliability, and unnecessary complexity. Fueled
+                by a desire to redefine the norms of cryptocurrency trading,
+                they embarked on a journey to craft a platform that transcended
+                mere functionality. At the heart of our endeavor lies
+                SwapXpress, where cutting-edge AI-powered bots merge with a
+                commitment to excellence. Together, we empower users with
+                intelligent trading strategies, ensuring swift, secure
+                transactions, and maximizing profitability. This is not just a
+                story of a platform; it's a testament to the relentless pursuit
+                of progress, collaboration, and the boundless potential of the
+                digital age. Welcome to the prologue of SwapXpress—a journey
+                poised to reshape the future of cryptocurrency trading, one
+                exchange at a time.
               </p>
             </div>
           </div>
@@ -77,14 +84,13 @@ const About = () => {
                 Where are we Now?
               </h2>
               <p>
-                As of now, Swapxpress stands as a promising platform that
-                focuses on bridging the gap between cryptocurrencies and local
-                currencies. it serves as a pivotal tool for users seeking a
-                seamless means to convert their local currency into
-                cryptocurrency and vice versa. Swapxpress is committed to
-                simplifying and streamlining this process, allowing individuals
-                and businesses to more easily engage with the world of digital
-                assets.
+                As of now, SwapXpress continues to advance in its mission to
+                redefine cryptocurrency trading. We've made significant strides
+                in refining our platform, integrating cutting-edge technologies,
+                and enhancing user experiences. Our team remains dedicated to
+                streamlining currency exchange, fostering seamless
+                communication, and revitalizing community engagement within the
+                dynamic cryptocurrency market.
               </p>
             </div>
             <div className="swaptalk">

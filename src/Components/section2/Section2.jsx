@@ -10,12 +10,11 @@ const Section2 = () => {
       <div className="second_section_header">
         <h3>Why SwapXpress ?</h3>
         <p>
-          We harness the power of blockchain innovation to streamline and
-          expedite the process of converting your local currency into
-          cryptocurrency, offering both security and cost-efficiency,
-          particularly for smaller amounts. Our commitment to revolutionizing
-          currency exchanges ensures a seamless experience for all your digital
-          asset needs.
+          We harness the power of blockchain innovation and AI to streamline and
+          expedite the process of trading your cryptocurrencies , offering both
+          security and cost-efficiency, particularly for smaller amounts. Our
+          commitment to revolutionizing currency exchanges ensures a seamless
+          experience for all your digital asset needs.
         </p>
       </div>
 

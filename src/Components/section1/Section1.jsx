@@ -48,7 +48,7 @@ const Section1 = () => {
       <div className="first_side">
         <h3>
           Redefining Trading Excellence with <br />
-          Next-Level Intelligence
+          Artificial Intelligence
         </h3>
         <p>
           Dive into the Future of Crypto Trading with SwapXpress: Where
@@ -60,7 +60,7 @@ const Section1 = () => {
       <div className="second_side">
         <div className="convert_card">
           <div className="card_header">
-            <p>Swap Your Currency with Ease!</p>
+            <p>Trade Your Currency with Ease!</p>
           </div>
 
           <div className="card_input_box">
